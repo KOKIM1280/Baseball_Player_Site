@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>사이트이름</title>
+    <link rel="stylesheet" href="index1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+  <body id="body_button">
+    <header>
+      <a href="index.html"><img src="image/1.image.png" style="border-right:2px solid; padding-right:10px;"></a> <!--// 사이트이름 -->
+      <a href="index1.html"><img src="image/2.image.png"></a>  <!--// 뉴스 -->
+      <a href="index2.html"><img src="image/3.image.png"></a>  <!--// 야구일정 -->
+      <a href="index3.html"><img src="image/4.image.png"></a>  <!--// 야구순위 -->
+      <a href="index4.html"><img src="image/5.image.png"></a>  <!--// 야구 -->
+    </header>
+    <nav-article>
+    <nav>
+      <ul>
+        <li><a href="#">팀순위</a></li>
+        <li><a href="#">투수순위</a></li>
+        <li><a href="#">타자순위</a></li>
+      </ul>
+    </nav>
+    <article>
+      <div class="button" style="float:right;">
+        <input type="button" value="작은글자" onclick="document.getElementById('body_button').className='white'"/>
+        <input type="button" value="큰글자" onclick="document.getElementById('body_button').className='black'"/>
+      </div>
+      <h1>야구순위</h1>
+    </article>
+  </nav-article>
+  </body>
+</html>
