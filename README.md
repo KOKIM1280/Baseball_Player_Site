@@ -13,6 +13,7 @@
 - HTML / CSS / JavaScript
 ---
 ## 📷 사이트 사진
+<img width="1919" height="848" alt="image" src="https://github.com/user-attachments/assets/7bf1ccb6-4029-48de-a6cc-078ec6120ae3" />
 
 
 
